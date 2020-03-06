@@ -45,6 +45,12 @@ Especificar el puerto de docker [HOST]:[CONTAINER]
 $ docker run -d -p 4545:80 nginx
 ```
 
+Especificar el nombre del contenedor
+
+```bash
+$ docker run --name test -d -p 4545:80 nginx
+```
+
 ## Manejo de Containers
 
 Attach o conectarse a un running container
@@ -71,6 +77,15 @@ Parar un container
 ```bash
 $ docker stop <ID|NAME>
 ```
+
+## Manejo de Volumnes
+
+Agregar un volumen del host al container
+
+```bash
+$ docker run -v /var/somedirectory/file:/usr/share/nginx/html -d nginx
+```
+
 ## Manejo de Imagenes
 Remover un stop container
 
