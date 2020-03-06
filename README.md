@@ -3,7 +3,8 @@
   <img src="https://miro.medium.com/max/200/1*lUNmBw_oyS2ADWqZs4DLOA.png" alt="Docker Logo">
 </p>
 
-#Docker Cheatsheet
+
+# Docker Cheatsheet
 
 Obtener una version de imagen especifica se utiliza
 
