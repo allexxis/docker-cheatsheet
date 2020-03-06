@@ -18,10 +18,23 @@ o solo escribir el nombre de la imagen en docker hub
 <image>:<latest>
 ```
 
-Iniciar una imagen Ejemplo: nginx:latest
+Iniciar un container Ejemplo: nginx:latest
 
 ```bash
 $ docker run nginx
+```
+
+Iniciar un container en modo detach o "background"
+
+```bash
+$ docker run -d nginx
+```
+
+Attach o conectarse a un running container
+
+
+```bash
+$ docker attach <ID|NAME>
 ```
 
 Listar todos los running containers
