@@ -101,14 +101,20 @@ $ docker rm <ID|NAME>
 Remover todos los stop containers
 
 ```bash
+$ docker container prune
+```
+
+O
+```bash
 $ docker rm $(docker ps -a -q)
 ```
 
 Listar todas las imagenes descargadas
 
 ```bash
-$ docker images
+$ docker image prune
 ```
+
 
 
 
