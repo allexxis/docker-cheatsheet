@@ -1,5 +1,9 @@
-#<span style="color:#4C8CB4">Docker Cheatsheet</span>    ![docker](https://miro.medium.com/max/100/1*lUNmBw_oyS2ADWqZs4DLOA.png "Docker image")
 
+<p align="center">
+  <img src="https://miro.medium.com/max/200/1*lUNmBw_oyS2ADWqZs4DLOA.png" alt="Docker Logo">
+</p>
+
+#Docker Cheatsheet
 
 Para obtener una version de imagen especifica se utiliza
 
