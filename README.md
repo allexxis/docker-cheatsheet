@@ -6,6 +6,8 @@
 
 # Docker Cheatsheet
 
+## Inicio de contenedores
+
 Obtener una version de imagen especifica se utiliza
 
 ```bash
@@ -31,6 +33,20 @@ Iniciar un container en modo detach o "background"
 $ docker run -d nginx
 ```
 
+Iniciar un container en modo interactivo y terminal
+
+```bash
+$ docker run -it nginx
+```
+
+Especificar el puerto de docker [HOST]:[CONTAINER]
+
+```bash
+$ docker run -d -p 4545:80 nginx
+```
+
+## Manejo de Containers
+
 Attach o conectarse a un running container
 
 
@@ -55,7 +71,7 @@ Parar un container
 ```bash
 $ docker stop <ID|NAME>
 ```
-
+## Manejo de Imagenes
 Remover un stop container
 
 ```bash
@@ -73,6 +89,7 @@ Listar todas las imagenes descargadas
 ```bash
 $ docker images
 ```
+
 
 
 
