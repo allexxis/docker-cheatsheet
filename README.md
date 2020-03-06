@@ -5,34 +5,62 @@
 
 #Docker Cheatsheet
 
-Para obtener una version de imagen especifica se utiliza
+Obtener una version de imagen especifica se utiliza
 
 ```bash
-<imagen>:version
+<image>:<version>
 ```
 
-Para obtener la ultima version se puede utilizar
+Obtener la ultima version se puede utilizar
 o solo escribir el nombre de la imagen en docker hub
 
 ```bash
-<imagen>:latest
+<image>:<latest>
 ```
 
-Para iniciar una imagen Ejemplo: nginx:latest
+Iniciar una imagen Ejemplo: nginx:latest
 
 ```bash
 $ docker run nginx
 ```
 
-Para listar todos los running containers
+Listar todos los running containers
 
 ```bash
 $ docker ps
 ```
 
-Para listar todos los running containers y stop containers
+Listar todos los running containers y stop containers
 
 ```bash
 $ docker ps -a
 ```
+
+Parar un container
+
+```bash
+$ docker stop <ID|NAME>
+```
+
+Remover un stop container
+
+```bash
+$ docker rm <ID|NAME>
+```
+
+Remover todos los stop containers
+
+```bash
+$ docker rm $(docker ps -a -q)
+```
+
+Listar todas las imagenes descargadas
+
+```bash
+$ docker images
+```
+
+
+
+
 
