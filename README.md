@@ -51,6 +51,11 @@ Especificar el nombre del contenedor
 $ docker run --name test -d -p 4545:80 nginx
 ```
 
+Especificar variables de ambiente
+
+```bash
+$ docker run -e NODE_ENV=production node
+```
 ## Manejo de Containers
 
 Attach o conectarse a un running container
